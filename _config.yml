@@ -22,8 +22,17 @@ social:
 # Build settings
 include: ["_categories"]
 exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
-markdown: kramdown
 permalink: /:year/:month/:day/:title/
+
+
+# build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+#comments
+disqus-shortname: tosinmath007
 
 # Sass
 sass:
@@ -31,3 +40,5 @@ sass:
 
 # Gems
 gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+
+
