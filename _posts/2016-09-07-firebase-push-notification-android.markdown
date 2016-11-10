@@ -3,7 +3,7 @@ layout: post
 title: "firebase push notification Android"
 date: 2016-09-07
 categories:
-  - Juice
+  - Messaging
 description: 
 tags: ['firebase', 'messaging', 'gms','fcm','android','notification','push notification','push messages']
 image: https://unsplash.it/2000/1200?image=1003
