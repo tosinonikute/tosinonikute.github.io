@@ -63,21 +63,4 @@
 
 
 
-.highlight pre{
-    padding: 16px;
-    overflow: auto;
-    font-size: 85%;
-    line-height: 1.45;
-    background-color: #f7f7f7;
-    border-radius: 3px;
-}
-.highlight pre {
-    margin-bottom: 0;
-    word-break: normal;
-}
-pre {
-    word-wrap: normal;
-}
-figure {
-    margin: 1em 0;
-}
+
