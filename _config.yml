@@ -1,4 +1,5 @@
 # Site settings
+
 email: tosinmath007@gmail.com
 baseurl: "https://tosinonikute.github.io/"
 paginate: 5
@@ -30,7 +31,7 @@ kramdown:
   
 
 # Comments
- comments:
+comments: true
    provider: disqus
  disqus: 
    short_name: tosinmath007
