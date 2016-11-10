@@ -23,6 +23,8 @@ layout: default
 
   <section class="section-padding post" itemprop="articleBody">
     {{ content }}
+    
+    {% include disqus.html %}
   </section>
 
   <section class="profile">
@@ -48,7 +50,7 @@ layout: default
  
 </article>
 
-  {% include disqus.html %}
+
 
 {% if page.previous.url %}
   <section class="next">
