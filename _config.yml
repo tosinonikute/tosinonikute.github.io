@@ -28,8 +28,13 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   
-#comments
-disqus-shortname: tosinmath007
+
+# Comments
+ comments:
+   provider: disqus
+ disqus: 
+   short_name: tosinmath007
+
 
 # Sass
 sass:
