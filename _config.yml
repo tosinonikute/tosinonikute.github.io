@@ -32,9 +32,6 @@ kramdown:
 
 # Comments
 comments: true
-   provider: disqus
- disqus: 
-   short_name: tosinmath007
 
 
 # Sass
