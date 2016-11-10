@@ -1,20 +1,20 @@
 # Site settings
-email: 
-baseurl: ""
+email: tosinmath007@gmail.com
+baseurl: "https://tosinonikute.github.io/"
 paginate: 5
 paginate_path: "/blog/page-:num"
 google_analytics: 
 
 # SEO settings
-title: Trophy
-description: 
+title: Tosin Onikute
+description: I build stuff for the web and mobile.
 url: "https://tosinonikute.github.io/"
 twitter_username: 
 default_img: 
 
 # Profile settings
-name: 
-profile_img: 
+name: Tosin
+profile_img: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAeDAAAAJGI2NmFmZDMxLTUyZGQtNGQ1Yi04ZDM0LTUxNDRmMzAzYWViMA.jpg
 profile: 
 social:
   github: 
