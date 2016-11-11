@@ -162,7 +162,7 @@ Don't forget to close the Realm instance.
 
 
 {% highlight java %}
-// realm.close();
+ realm.close();
 {% endhighlight %}
 
 ### FULL CODE
