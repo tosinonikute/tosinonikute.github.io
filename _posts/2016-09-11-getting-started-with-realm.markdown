@@ -159,7 +159,11 @@ realm.commitTransaction();
 
 
 Don't forget to close the Realm instance.
+
+
+{% highlight java %}
 // realm.close();
+{% endhighlight %}
 
 ### FULL CODE
 
@@ -172,9 +176,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
-        // Get a Realm instance for this thread
-        Realm = Realm.getInstance(Context);
 
         // Get a Realm instance for this thread
         realm = Realm.getInstance(getApplicationContext());
