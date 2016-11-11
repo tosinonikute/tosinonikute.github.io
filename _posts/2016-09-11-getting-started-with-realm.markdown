@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "getting started with realm"
-date: 2016-09-07
+date: 2016-09-11
 categories:
   - Messaging
 description: 
