@@ -16,7 +16,7 @@ For this tutorial we are going to discuss about the basic usage of Realm.
 
 This tutorial is a part of a Github project implementing Realm with a ListView and Removing item from ListView on long click.
 
-See code here: https://github.com/tosinonikute/Rsample
+See code here: <a target="_blank" href="https://github.com/tosinonikute/Rsample">https://github.com/tosinonikute/Rsample</a>
 
 So let's jump right in.
 
@@ -148,12 +148,14 @@ long primaryKeyValue = nextID + 1;
 
 We save the data and then commit transaction.
 
+{% highlight java %}
 phoneBook.setId(primaryKeyValue);
 phoneBook.setName(name.getText().toString());
 phoneBook.setLastName(lastName.getText().toString());
 phoneBook.setEmail(email.getText().toString());
 phoneBook.setPhone(phoneNumber.getText().toString());
 realm.commitTransaction();
+{% endhighlight %}
 
 
 Don't forget to close the Realm instance.
@@ -213,7 +215,7 @@ For Quering and reteiving values from Realm is easy as it can get.
 
 You can ask use series of Queries, but here we make use of findAll()
 
-See url link for more Queries: https://realm.io/docs/java/latest/#queries
+See url link for more Queries: <a target="_blank" href="https://realm.io/docs/java/latest/#queries">https://realm.io/docs/java/latest/#queries</a>
 
 {% highlight java %}
         RealmResults<PhoneBook> results;
